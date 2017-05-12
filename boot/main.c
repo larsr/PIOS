@@ -41,7 +41,7 @@
 #define ELFHDR		((elfhdr *) 0x10000) // scratch space
 
 void readsect(void*, uint32_t);
-sdtatic inline void readseg(uint32_t, uint32_t, uint32_t);
+static inline void readseg(uint32_t, uint32_t, uint32_t);
 
 void
 bootmain(void)
